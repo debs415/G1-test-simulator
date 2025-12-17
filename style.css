@@ -40,7 +40,7 @@ body {
 /* START SCREEN */
 
 #start-screen h1 {
-	color: #e86a33;
+	color: rgb(71, 110, 161);
 	margin-bottom: 20px;
 	font-size: 2.5rem;
 }
@@ -146,7 +146,7 @@ body {
 }
 
 button {
-	background-color: #e86a33;
+	background-color: rgb(71, 110, 161);
 	color: white;
 	border: none;
 	border-radius: 10px;
@@ -157,7 +157,7 @@ button {
 }
 
 button:hover {
-	background-color: #d45b28;
+	background-color: rgb(34, 89, 162);
 }
 
 /* RESPONSIVE DESIGN */
