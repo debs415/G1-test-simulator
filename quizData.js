@@ -794,20 +794,6 @@ export const ROAD_SIGNS_QUESTIONS = [
 	},
 	{
 		question: "What does this sign mean?",
-		image: "images/signs/airport.png",
-		imageAlt: "Green sign with an airplane symbol",
-		answers: [
-			{ text: "Airport parking", correct: false },
-			{
-				text: "Route to airport - pavement has been milled or grooved",
-				correct: true,
-			},
-			{ text: "Low flying aircraft", correct: false },
-			{ text: "Aviation museum", correct: false },
-		],
-	},
-	{
-		question: "What does this sign mean?",
 		image: "images/signs/hospital-detour.png",
 		imageAlt: "Orange sign with 'H' symbol",
 		answers: [
