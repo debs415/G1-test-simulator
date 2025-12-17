@@ -1576,7 +1576,7 @@ export const TEST_MODES = {
 	officialSimulator: {
 		id: "official",
 		title: "Official G1 Test Simulator",
-		description: "Exact format as the real G1 test - 20 Road Signs + 20 Rules",
+		description: "Exact format as the real G1 test: 20 Road Signs + 20 Rules",
 		roadSignsCount: 20,
 		rulesCount: 20,
 		passingScore: 80,
@@ -1624,9 +1624,20 @@ export const TEST_MODES = {
 	},
 };
 
+// Shuffle array helper
+function shuffleArray(array) {
+	const shuffled = [...array];
+	for (let i = shuffled.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+	}
+	return shuffled;
+}
+
 // Generate test based on mode
 export function generateTest(modeId) {
-	const mode = TEST_MODES[modeId];
+	// Find mode by id instead of by key
+	const mode = Object.values(TEST_MODES).find((m) => m.id === modeId);
 
 	if (!mode) {
 		throw new Error(`Invalid test mode: ${modeId}`);

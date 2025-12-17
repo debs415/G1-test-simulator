@@ -21,8 +21,8 @@ body {
 	border-radius: 1rem;
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 	width: 100%;
-	max-width: 600px;
-	overflow: hidden;
+	max-width: 800px;
+	overflow: visible;
 	position: relative;
 }
 
@@ -114,7 +114,7 @@ body {
 
 .progress {
 	height: 100%;
-	background-color: #e86a33;
+	background-color: rgb(71, 110, 161);
 	width: 0%;
 	transition: width 0.3s ease;
 }
@@ -122,7 +122,7 @@ body {
 /* RESULT SCREEN */
 
 #result-screen h1 {
-	color: #e86a33;
+	color: rgb(71, 110, 161);
 	margin-bottom: 30px;
 }
 
@@ -142,7 +142,7 @@ body {
 #result-message {
 	font-size: 1.5rem;
 	font-weight: 600;
-	color: #e86a33;
+	color: rgb(71, 110, 161);
 }
 
 button {
@@ -168,7 +168,7 @@ button:hover {
 }
 
 .dropdown-btn {
-	width: 100%;
+	/* width: 100%; */
 	text-align: left;
 	padding: 15px 20px;
 	background-color: #f8f0e5;
@@ -188,11 +188,9 @@ button:hover {
 	background-color: white;
 	width: 100%;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-	z-index: 1;
+	z-index: 5;
 	border-radius: 10px;
 	margin-top: 5px;
-	max-height: 400px;
-	overflow-y: auto;
 }
 
 .dropdown-content.show {
@@ -222,20 +220,7 @@ button:hover {
 	color: #666;
 	margin-top: 5px;
 	font-weight: normal;
-}
-
-.dropdown-option:hover .tooltip {
-	display: block;
-}
-
-/*Responsive tooltip */
-@media (max-width: 800px) {
-	.tooltip {
-		left: 0;
-		top: 100%;
-		width: 100%;
-		margin-top: 5px;
-	}
+	line-height: 1.4;
 }
 
 /* RESPONSIVE DESIGN */

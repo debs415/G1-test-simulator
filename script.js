@@ -191,9 +191,9 @@ function showResults() {
 		if (passedRoadSigns && passedRules) {
 			resultMessage.textContent = `🎉 PASSED! Road Signs: ${roadSignsScore}/${roadSignsTotal}, Rules: ${rulesScore}/${rulesTotal}`;
 		} else {
-			resultMessage.textContent = `❌ FAILED. Road Signs: ${roadSignsScore}/${roadSignsTotal} ${
-				passedRoadSigns ? "✓" : "✗"
-			}, Rules: ${rulesScore}/${rulesTotal} ${passedRules ? "✓" : "✗"}`;
+			resultMessage.textContent = `🥹 FAILED. Road Signs: ${roadSignsScore}/${roadSignsTotal} ${
+				passedRoadSigns ? "✓" : "x"
+			}, Rules: ${rulesScore}/${rulesTotal} ${passedRules ? "✓" : "x"}`;
 		}
 	} else {
 		// Regular scoring
