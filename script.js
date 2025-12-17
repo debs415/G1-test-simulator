@@ -1,4 +1,4 @@
-import { generateTest, TEST_MODES } from "./quizData.js";
+import { generateTest, TEST_MODES, shuffleArray } from "./quizData.js";
 
 // DOM Elements
 const startScreen = document.getElementById("start-screen");
@@ -111,9 +111,24 @@ function showQuestion() {
 
 	questionText.textContent = currentQuestion.question;
 
-	answersContainer.innerHTML = "";
+	// Remove any existing image from previous question
+	const existingImage = document.getElementById("question-image");
+	if (existingImage) {
+		existingImage.remove();
+	}
+	// Check if this question has an image
+	if (currentQuestion.image) {
+		const imgElement = document.createElement("img"); // What HTML tag?
+		imgElement.id = "question-image";
+		imgElement.className = "sign-image"; // CSS class for styling
+		imgElement.src = currentQuestion.image;
+		imgElement.alt = currentQuestion.imageAlt;
+		questionText.insertAdjacentElement("afterend", imgElement);
+	}
 
-	currentQuestion.answers.forEach((answer) => {
+	answersContainer.innerHTML = "";
+	const shuffledAnswers = shuffleArray([...currentQuestion.answers]);
+	shuffledAnswers.forEach((answer) => {
 		const button = document.createElement("button");
 		button.textContent = answer.text;
 		button.classList.add("answer-btn");

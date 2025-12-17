@@ -1,12 +1,11 @@
 // quizData.js - G1 Test Questions
 
 // ==================== ROAD SIGNS QUESTIONS (78) ====================
-
 export const ROAD_SIGNS_QUESTIONS = [
 	// WARNING SIGNS (Yellow Diamond Signs)
 	{
 		question: "What does this sign mean?",
-		image: "/images/signs/share-road.png", // Yellow diamond with up/down arrows
+		image: "images/signs/share-road.png",
 		imageAlt:
 			"Diamond-shaped yellow sign with arrows showing traffic going in both directions",
 		answers: [
@@ -17,8 +16,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing the road dividing with arrows?",
+		question: "What does this sign mean?",
+		image: "images/signs/divided-end.png",
+		imageAlt:
+			"Diamond-shaped yellow sign showing the road dividing with arrows",
 		answers: [
 			{ text: "Road merges ahead", correct: false },
 			{ text: "Divided road ends, keep to the right", correct: true },
@@ -27,8 +28,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a curved arrow first right then left?",
+		question: "What does this sign mean?",
+		image: "images/signs/curve.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with a curved arrow first right then left",
 		answers: [
 			{ text: "Winding road ahead", correct: false },
 			{ text: "Road ahead turns right, then left", correct: true },
@@ -37,8 +40,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a deer symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/deer.png",
+		imageAlt: "Diamond-shaped yellow sign with a deer symbol",
 		answers: [
 			{ text: "Wildlife sanctuary ahead", correct: false },
 			{ text: "Deer regularly cross, be alert for animals", correct: true },
@@ -47,8 +51,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a bumpy surface?",
+		question: "What does this sign mean?",
+		image: "images/signs/bumpy.png",
+		imageAlt: "Diamond-shaped yellow sign showing a bumpy surface",
 		answers: [
 			{ text: "Road construction ahead", correct: false },
 			{ text: "Bumpy or uneven pavement ahead", correct: true },
@@ -57,8 +62,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with merging arrows?",
+		question: "What does this sign mean?",
+		image: "images/signs/merge.png",
+		imageAlt: "Diamond-shaped yellow sign with merging arrows",
 		answers: [
 			{ text: "Lane ends", correct: false },
 			{ text: "Merge with traffic", correct: true },
@@ -67,8 +73,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a median barrier ahead?",
+		question: "What does this sign mean?",
+		image: "images/signs/median.png",
+		imageAlt: "Diamond-shaped yellow sign showing a median barrier ahead",
 		answers: [
 			{ text: "Construction ahead", correct: false },
 			{ text: "Median ahead: keep to the right", correct: true },
@@ -77,8 +84,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A rectangular yellow sign with two people crossing and an arrow pointing up?",
+		question: "What does this sign mean?",
+		image: "images/signs/school-cross.png",
+		imageAlt:
+			"Rectangular yellow sign with two people crossing and an arrow pointing up",
 		answers: [
 			{ text: "Pedestrian zone", correct: false },
 			{ text: "A school crossing ahead", correct: true },
@@ -87,8 +96,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a school bus and flashing lights?",
+		question: "What does this sign mean?",
+		image: "images/signs/bus-stop.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with a school bus and flashing lights",
 		answers: [
 			{ text: "School bus route", correct: false },
 			{ text: "A hidden school bus stop ahead", correct: true },
@@ -97,8 +108,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing two lanes merging into one?",
+		question: "What does this sign mean?",
+		image: "images/signs/lane-ends.png",
+		imageAlt: "Diamond-shaped yellow sign showing two lanes merging into one",
 		answers: [
 			{ text: "Lane ends ahead", correct: false },
 			{ text: "Right lane ends ahead", correct: true },
@@ -107,8 +119,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A pentagon-shaped yellow sign with two people walking?",
+		question: "What does this sign mean?",
+		image: "images/signs/school-zone.png",
+		imageAlt: "Pentagon-shaped yellow sign with two people walking",
 		answers: [
 			{ text: "Pedestrian crossing", correct: false },
 			{ text: "School zone sign", correct: true },
@@ -117,8 +130,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a curved arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/winding.png",
+		imageAlt: "Diamond-shaped yellow sign with a curved arrow",
 		answers: [
 			{ text: "Sharp turn ahead", correct: false },
 			{ text: "Winding road", correct: true },
@@ -127,8 +141,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a red octagonal stop sign symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/stop-ahead.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with a red octagonal stop sign symbol",
 		answers: [
 			{ text: "Stop sign visible ahead", correct: false },
 			{ text: "Stop sign ahead", correct: true },
@@ -137,8 +153,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a truck going downhill with a percentage?",
+		question: "What does this sign mean?",
+		image: "images/signs/steep-hill.png",
+		imageAlt:
+			"Diamond-shaped yellow sign showing a truck going downhill with a percentage",
 		answers: [
 			{ text: "Truck route", correct: false },
 			{ text: "Steep hill ahead", correct: true },
@@ -147,8 +165,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a narrow structure?",
+		question: "What does this sign mean?",
+		image: "images/signs/narrow-bridge.png",
+		imageAlt: "Diamond-shaped yellow sign showing a narrow structure",
 		answers: [
 			{ text: "Bridge ahead", correct: false },
 			{ text: "Narrow bridge ahead", correct: true },
@@ -157,8 +176,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a truck entering from the right?",
+		question: "What does this sign mean?",
+		image: "images/signs/truck-right.png",
+		imageAlt:
+			"Diamond-shaped yellow sign showing a truck entering from the right",
 		answers: [
 			{ text: "Truck stop ahead", correct: false },
 			{ text: "Truck entrance ahead on the right", correct: true },
@@ -167,8 +188,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a Y-shaped road symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/y-road.png",
+		imageAlt: "Diamond-shaped yellow sign with a Y-shaped road symbol",
 		answers: [
 			{ text: "Intersection ahead", correct: false },
 			{ text: "Road branching off ahead", correct: true },
@@ -177,8 +199,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a railroad crossing symbol (crossbuck)?",
+		question: "What does this sign mean?",
+		image: "images/signs/railway.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with a railroad crossing symbol (crossbuck)",
 		answers: [
 			{ text: "Train station ahead", correct: false },
 			{ text: "Railway crossing ahead", correct: true },
@@ -187,8 +211,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a bicycle symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/bike-cross.png",
+		imageAlt: "Diamond-shaped yellow sign with a bicycle symbol",
 		answers: [
 			{ text: "Bike lane ahead", correct: false },
 			{ text: "Bicycle crossing ahead", correct: true },
@@ -197,8 +222,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with a black and yellow checkered pattern and an arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/sharp-turn.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with a black and yellow checkered pattern and an arrow",
 		answers: [
 			{ text: "Caution ahead", correct: false },
 			{ text: "Danger, sharp turn", correct: true },
@@ -207,8 +234,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with an upward arrow and the word 'HIDDEN'?",
+		question: "What does this sign mean?",
+		image: "images/signs/hidden.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with an upward arrow and the word 'HIDDEN'",
 		answers: [
 			{ text: "Hidden driveway", correct: false },
 			{
@@ -220,8 +249,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a bus entering from the right?",
+		question: "What does this sign mean?",
+		image: "images/signs/bus-right.png",
+		imageAlt:
+			"Diamond-shaped yellow sign showing a bus entering from the right",
 		answers: [
 			{ text: "Bus stop ahead", correct: false },
 			{ text: "Bus entrance ahead on the right", correct: true },
@@ -230,8 +261,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a car skidding?",
+		question: "What does this sign mean?",
+		image: "images/signs/slippery.png",
+		imageAlt: "Diamond-shaped yellow sign showing a car skidding",
 		answers: [
 			{ text: "Icy road ahead", correct: false },
 			{ text: "Pavement is slippery when wet", correct: true },
@@ -240,8 +272,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign showing a fire truck entering from the right?",
+		question: "What does this sign mean?",
+		image: "images/signs/fire-truck.png",
+		imageAlt:
+			"Diamond-shaped yellow sign showing a fire truck entering from the right",
 		answers: [
 			{ text: "Fire station ahead", correct: false },
 			{ text: "Fire truck entrance ahead on the right", correct: true },
@@ -250,8 +284,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A yellow rectangular sign showing '60 km/h' under a curve warning?",
+		question: "What does this sign mean?",
+		image: "images/signs/curve-60.png",
+		imageAlt: "Yellow rectangular sign showing '60 km/h' under a curve warning",
 		answers: [
 			{ text: "Speed limit 60 km/h", correct: false },
 			{ text: "Maximum safe speed for the curve", correct: true },
@@ -262,8 +297,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 
 	// REGULATORY SIGNS
 	{
-		question:
-			"What does this sign mean: A diamond-shaped yellow sign with black checkered pattern and an X?",
+		question: "What does this sign mean?",
+		image: "images/signs/railroad-x.png",
+		imageAlt:
+			"Diamond-shaped yellow sign with black checkered pattern and an X",
 		answers: [
 			{ text: "Road closed ahead", correct: false },
 			{ text: "You are approaching a railroad crossing", correct: true },
@@ -272,8 +309,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white rectangular sign that says 'SLOWER TRAFFIC KEEP RIGHT'?",
+		question: "What does this sign mean?",
+		image: "images/signs/slow-right.png",
+		imageAlt: "White rectangular sign that says 'SLOWER TRAFFIC KEEP RIGHT'",
 		answers: [
 			{ text: "Right lane for trucks only", correct: false },
 			{ text: "Slow traffic must keep right", correct: true },
@@ -282,8 +320,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a diamond, bicycle symbol, and downward arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/bike-lane.png",
+		imageAlt: "White sign with a diamond, bicycle symbol, and downward arrow",
 		answers: [
 			{ text: "Bicycle parking ahead", correct: false },
 			{ text: "This lane is for bicycles only", correct: true },
@@ -292,8 +331,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A black sign with white arrows pointing left and curving right?",
+		question: "What does this sign mean?",
+		image: "images/signs/two-way-left.png",
+		imageAlt: "Black sign with white arrows pointing left and curving right",
 		answers: [
 			{ text: "Left turn only", correct: false },
 			{ text: "Two-way left turn lane", correct: true },
@@ -302,8 +342,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white rectangular sign that says 'DO NOT BLOCK INTERSECTION'?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-block.png",
+		imageAlt: "White rectangular sign that says 'DO NOT BLOCK INTERSECTION'",
 		answers: [
 			{ text: "Stop ahead", correct: false },
 			{ text: "Do not block intersection", correct: true },
@@ -312,8 +353,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A black square sign with white arrows showing a curved lane and straight lane?",
+		question: "What does this sign mean?",
+		image: "images/signs/keep-right.png",
+		imageAlt:
+			"Black square sign with white arrows showing a curved lane and straight lane",
 		answers: [
 			{ text: "Lane choice ahead", correct: false },
 			{ text: "Keep to the right lane, except when passing", correct: true },
@@ -322,8 +365,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A black sign with white arrows pointing in different directions?",
+		question: "What does this sign mean?",
+		image: "images/signs/directions.png",
+		imageAlt: "Black sign with white arrows pointing in different directions",
 		answers: [
 			{ text: "Multiple exits ahead", correct: false },
 			{
@@ -335,8 +379,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign that says 'COMMUNITY SAFETY ZONE FINES INCREASED'?",
+		question: "What does this sign mean?",
+		image: "images/signs/safety-zone.png",
+		imageAlt: "White sign that says 'COMMUNITY SAFETY ZONE FINES INCREASED'",
 		answers: [
 			{ text: "Police monitoring area", correct: false },
 			{
@@ -348,8 +393,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white rectangular sign with a large '50' and the word 'MAXIMUM'?",
+		question: "What does this sign mean?",
+		image: "images/signs/speed-50.png",
+		imageAlt: "White rectangular sign with a large '50' and the word 'MAXIMUM'",
 		answers: [
 			{ text: "Minimum speed 50 km/h", correct: false },
 			{
@@ -361,8 +407,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign that says 'SCHOOL BUS LOADING ZONE' with an arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/bus-zone.png",
+		imageAlt: "White sign that says 'SCHOOL BUS LOADING ZONE' with an arrow",
 		answers: [
 			{ text: "School bus stop only", correct: false },
 			{ text: "School buses load and unload in this area", correct: true },
@@ -371,8 +418,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign showing a curved lane with an arrow pointing right?",
+		question: "What does this sign mean?",
+		image: "images/signs/island-right.png",
+		imageAlt: "White sign showing a curved lane with an arrow pointing right",
 		answers: [
 			{ text: "Sharp turn ahead", correct: false },
 			{ text: "Keep to the right of the traffic island", correct: true },
@@ -381,8 +429,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a black curved arrow pointing right and the word 'ONLY'?",
+		question: "What does this sign mean?",
+		image: "images/signs/right-only.png",
+		imageAlt:
+			"White sign with a black curved arrow pointing right and the word 'ONLY'",
 		answers: [
 			{ text: "Right turn permitted", correct: false },
 			{ text: "Lane usage sign meaning right turn only", correct: true },
@@ -391,8 +441,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a black arrow pointing right?",
+		question: "What does this sign mean?",
+		image: "images/signs/one-way.png",
+		imageAlt: "White sign with a black arrow pointing right",
 		answers: [
 			{ text: "Turn right ahead", correct: false },
 			{ text: "Traffic must travel in one direction only", correct: true },
@@ -401,8 +452,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white rectangular sign showing '80' in large numbers?",
+		question: "What does this sign mean?",
+		image: "images/signs/speed-80.png",
+		imageAlt: "White rectangular sign showing '80' in large numbers",
 		answers: [
 			{ text: "Minimum speed 80 km/h", correct: false },
 			{ text: "Shows maximum speed limit on the highway", correct: true },
@@ -411,8 +463,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A black rectangular sign that says 'RIGHT LANE MUST EXIT'?",
+		question: "What does this sign mean?",
+		image: "images/signs/lane-exit.png",
+		imageAlt: "Black rectangular sign that says 'RIGHT LANE MUST EXIT'",
 		answers: [
 			{ text: "Right lane closed ahead", correct: false },
 			{ text: "You must exit if you remain in right-hand lane", correct: true },
@@ -421,8 +474,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign that says 'STOP FOR SCHOOL BUS WHEN SIGNALS FLASHING'?",
+		question: "What does this sign mean?",
+		image: "images/signs/stop-bus.png",
+		imageAlt:
+			"White sign that says 'STOP FOR SCHOOL BUS WHEN SIGNALS FLASHING'",
 		answers: [
 			{ text: "School zone ahead", correct: false },
 			{
@@ -434,8 +489,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over an upward arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-straight.png",
+		imageAlt: "White sign with a red circle and slash over an upward arrow",
 		answers: [
 			{ text: "No U-turn", correct: false },
 			{ text: "Do not drive straight through the intersection", correct: true },
@@ -444,8 +500,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign showing a camera and traffic light with 'RED LIGHT PHOTO ENFORCED'?",
+		question: "What does this sign mean?",
+		image: "images/signs/camera.png",
+		imageAlt:
+			"White sign showing a camera and traffic light with 'RED LIGHT PHOTO ENFORCED'",
 		answers: [
 			{ text: "Speed camera ahead", correct: false },
 			{ text: "Red light camera at intersection", correct: true },
@@ -454,8 +512,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over a left-turning arrow, showing times '7AM-9AM 4PM-6PM MON-FRI'?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-left-times.png",
+		imageAlt:
+			"White sign with a red circle and slash over a left-turning arrow, showing times '7AM-9AM 4PM-6PM MON-FRI'",
 		answers: [
 			{ text: "No parking during these times", correct: false },
 			{ text: "Do not turn left during the times shown", correct: true },
@@ -464,8 +524,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with red circle and arrows pointing both ways?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-stop.png",
+		imageAlt: "White sign with red circle and arrows pointing both ways",
 		answers: [
 			{ text: "No passing zone", correct: false },
 			{ text: "Do not stop in the area between the signs", correct: true },
@@ -474,8 +535,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over a left-turning arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-left.png",
+		imageAlt:
+			"White sign with a red circle and slash over a left-turning arrow",
 		answers: [
 			{ text: "No U-turn", correct: false },
 			{ text: "You must not make a left turn", correct: true },
@@ -484,8 +547,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: Two signs - one with a red circle and slash over 'R', another saying 'ON RED'?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-right-red.png",
+		imageAlt:
+			"Two signs - one with a red circle and slash over 'R', another saying 'ON RED'",
 		answers: [
 			{ text: "No right turn at any time", correct: false },
 			{ text: "No right turn on red", correct: true },
@@ -494,8 +559,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over a pedestrian symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-ped.png",
+		imageAlt: "White sign with a red circle and slash over a pedestrian symbol",
 		answers: [
 			{ text: "Crosswalk ahead", correct: false },
 			{ text: "No pedestrians allowed", correct: true },
@@ -504,8 +570,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A red and white triangular yield sign?",
+		question: "What does this sign mean?",
+		image: "images/signs/yield.png",
+		imageAlt: "Red and white triangular yield sign",
 		answers: [
 			{ text: "Stop and proceed", correct: false },
 			{ text: "You must give the right-of-way", correct: true },
@@ -514,8 +581,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over a bicycle symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-bike.png",
+		imageAlt: "White sign with a red circle and slash over a bicycle symbol",
 		answers: [
 			{ text: "Bike lane ends", correct: false },
 			{ text: "No bicycles allowed on this road", correct: true },
@@ -524,8 +592,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over two cars side by side?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-pass.png",
+		imageAlt:
+			"White sign with a red circle and slash over two cars side by side",
 		answers: [
 			{ text: "No parking", correct: false },
 			{ text: "Passing is not allowed", correct: true },
@@ -534,8 +604,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A red and white sign that says 'NO STANDING ANY TIME' with arrows?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-stand.png",
+		imageAlt: "Red and white sign that says 'NO STANDING ANY TIME' with arrows",
 		answers: [
 			{ text: "No parking", correct: false },
 			{ text: "Do not stand or stop in this area", correct: true },
@@ -544,8 +615,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a red circle and slash over a U-turn arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-u.png",
+		imageAlt: "White sign with a red circle and slash over a U-turn arrow",
 		answers: [
 			{ text: "No left turn", correct: false },
 			{ text: "You must not make a U-turn", correct: true },
@@ -554,8 +626,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with 'NO IDLING 3 MIN IDLE LIMIT' and engine symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-idle.png",
+		imageAlt: "White sign with 'NO IDLING 3 MIN IDLE LIMIT' and engine symbol",
 		answers: [
 			{ text: "No parking for 3 minutes", correct: false },
 			{ text: "No idling for more than 3 minutes", correct: true },
@@ -564,8 +637,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A red circle with a white horizontal bar?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-enter.png",
+		imageAlt: "Red circle with a white horizontal bar",
 		answers: [
 			{ text: "Stop sign", correct: false },
 			{ text: "Keep out (do not enter)", correct: true },
@@ -574,7 +648,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question: "What does this sign mean: A red octagonal STOP sign?",
+		question: "What does this sign mean?",
+		image: "images/signs/stop.png",
+		imageAlt: "Red octagonal STOP sign",
 		answers: [
 			{ text: "Slow down and proceed with caution", correct: false },
 			{
@@ -586,8 +662,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A pedestrian X symbol with 'NO PASSING HERE TO CROSSING' text?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-pass-cross.png",
+		imageAlt: "Pedestrian X symbol with 'NO PASSING HERE TO CROSSING' text",
 		answers: [
 			{ text: "Pedestrian crossing ahead", correct: false },
 			{
@@ -599,8 +676,10 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with wheelchair symbol, red circle with 'P' and slash, and 'BY PERMIT ONLY'?",
+		question: "What does this sign mean?",
+		image: "images/signs/disabled.png",
+		imageAlt:
+			"White sign with wheelchair symbol, red circle with 'P' and slash, and 'BY PERMIT ONLY'",
 		answers: [
 			{ text: "Wheelchair accessible parking", correct: false },
 			{
@@ -612,8 +691,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A school bus stop arm with flashing red lights?",
+		question: "What does this sign mean?",
+		image: "images/signs/bus-arm.png",
+		imageAlt: "School bus stop arm with flashing red lights",
 		answers: [
 			{ text: "School bus route", correct: false },
 			{ text: "You must stop and are prohibited from passing", correct: true },
@@ -622,8 +702,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A green sign with 'P' and '2h 9AM-6PM MON-FRI' with arrows?",
+		question: "What does this sign mean?",
+		image: "images/signs/parking-2h.png",
+		imageAlt: "Green sign with 'P' and '2h 9AM-6PM MON-FRI' with arrows",
 		answers: [
 			{ text: "2-hour maximum parking anytime", correct: false },
 			{
@@ -635,8 +716,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a green circle containing a bicycle symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/bike-route.png",
+		imageAlt: "White sign with a green circle containing a bicycle symbol",
 		answers: [
 			{ text: "Bicycle lane ahead", correct: false },
 			{ text: "This road is an official bicycle route", correct: true },
@@ -645,8 +727,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a green circle containing a snowmobile symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/snowmobile.png",
+		imageAlt: "White sign with a green circle containing a snowmobile symbol",
 		answers: [
 			{ text: "Snowmobile parking", correct: false },
 			{ text: "Snowmobiles may use this road", correct: true },
@@ -655,8 +738,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with a green circle (empty)?",
+		question: "What does this sign mean?",
+		image: "images/signs/permit.png",
+		imageAlt: "White sign with a green circle (empty)",
 		answers: [
 			{ text: "Go ahead", correct: false },
 			{
@@ -670,8 +754,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 
 	// INFORMATION AND DIRECTION SIGNS
 	{
-		question:
-			"What does this sign mean: A blue and orange sign with a wheelchair symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/disabled-park.png",
+		imageAlt: "Blue and orange sign with a wheelchair symbol",
 		answers: [
 			{ text: "Hospital ahead", correct: false },
 			{
@@ -683,8 +768,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A green directional sign showing multiple exits and town names?",
+		question: "What does this sign mean?",
+		image: "images/signs/roundabout.png",
+		imageAlt: "Green directional sign showing multiple exits and town names",
 		answers: [
 			{ text: "Highway map", correct: false },
 			{
@@ -696,8 +782,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A black and orange sign with arrows and road names?",
+		question: "What does this sign mean?",
+		image: "images/signs/destination.png",
+		imageAlt: "Black and orange sign with arrows and road names",
 		answers: [
 			{ text: "Detour route", correct: false },
 			{ text: "Destination control board ahead", correct: true },
@@ -706,7 +793,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question: "What does this sign mean: A green sign with an airplane symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/airport.png",
+		imageAlt: "Green sign with an airplane symbol",
 		answers: [
 			{ text: "Airport parking", correct: false },
 			{
@@ -718,7 +807,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question: "What does this sign mean: An orange sign with 'H' symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/hospital-detour.png",
+		imageAlt: "Orange sign with 'H' symbol",
 		answers: [
 			{ text: "Hospital ahead", correct: false },
 			{
@@ -730,8 +821,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: An orange diamond sign with a worker and shovel symbol?",
+		question: "What does this sign mean?",
+		image: "images/signs/road-work.png",
+		imageAlt: "Orange diamond sign with a worker and shovel symbol",
 		answers: [
 			{ text: "Construction zone", correct: false },
 			{ text: "Road work operation ahead", correct: true },
@@ -740,7 +832,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question: "What does this sign mean: A large white X on a post?",
+		question: "What does this sign mean?",
+		image: "images/signs/railway-x.png",
+		imageAlt: "Large white X on a post",
 		answers: [
 			{ text: "Road closed", correct: false },
 			{ text: "Railway crossing", correct: true },
@@ -749,7 +843,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question: "What does this sign mean: An orange/red triangle?",
+		question: "What does this sign mean?",
+		image: "images/signs/slow-vehicle.png",
+		imageAlt: "Orange/red triangle",
 		answers: [
 			{ text: "Yield sign", correct: false },
 			{ text: "Slow moving vehicle", correct: true },
@@ -758,8 +854,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A white sign with diamond symbol, bus, number 2, and down arrow?",
+		question: "What does this sign mean?",
+		image: "images/signs/hov-2.png",
+		imageAlt: "White sign with diamond symbol, bus, number 2, and down arrow",
 		answers: [
 			{ text: "Bus route 2", correct: false },
 			{
@@ -771,8 +868,9 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 	{
-		question:
-			"What does this sign mean: A sign with diagonal stripes and text 'Do Not Cross'?",
+		question: "What does this sign mean?",
+		image: "images/signs/no-cross-hov.png",
+		imageAlt: "Sign with diagonal stripes and text 'Do Not Cross'",
 		answers: [
 			{ text: "No crossing allowed anywhere", correct: false },
 			{
@@ -784,7 +882,6 @@ export const ROAD_SIGNS_QUESTIONS = [
 		],
 	},
 ];
-
 // ==================== RULES, LIMITS & POINTS QUESTIONS (70) ====================
 export const RULES_AND_LIMITS_QUESTIONS = [
 	{
@@ -1625,7 +1722,7 @@ export const TEST_MODES = {
 };
 
 // Shuffle array helper
-function shuffleArray(array) {
+export function shuffleArray(array) {
 	const shuffled = [...array];
 	for (let i = shuffled.length - 1; i > 0; i--) {
 		const j = Math.floor(Math.random() * (i + 1));
